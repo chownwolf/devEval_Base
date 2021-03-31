@@ -20,7 +20,7 @@ def connect(username, password):
 #What ever username
 username = "root"
 #Try some basic passwords
-password = "["", "abc123", "backup", "password", "Password", "password123", "Password123", "12345", "root", "administrator", "ftp", "admin"]
+password = "["", "abc123", "backup", "password", "Password", "password123", "Password123", "12345", "root", "administrator", "ftp", "admin", "P@ssword123", "P@ssword", "P@ssword123!!!"]
 
 for password in passwords: 
 		attempt = connect(username, password)
